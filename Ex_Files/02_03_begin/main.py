@@ -1,18 +1,16 @@
-NAMES = ["John", "Paul", "George", "Ringo"]
-AGES = [20, 21, 22, 23]
+names = ["Ashiy","Gayan","Sakshi","Rohit"]
+nums = [1,2,3,4,5,6,7,8,9]
 
-JOHN = NAMES[0]
-PAUL = NAMES[1]
+first_name = names[0]
+last_name = names[1]
 
-JOHN_PAUL = NAMES[:2]
-GEORGE_RINGO = NAMES[2:]
-REVERSE = NAMES[::-1]
-EVERY_OTHER = NAMES[::2]
+print(first_name, last_name)
+#[(start point):(end point):(step)]
+Ashiy_gayan = names[0:2]
+print(Ashiy_gayan)
 
-print(sum(AGES))
-print(min(AGES))
-print(max(AGES))
-
-print(JOHN_PAUL)
-print(GEORGE_RINGO)
-print(REVERSE)
+#num related
+print("Sum of nums:", sum(nums))
+print("Min of nums:", min(nums))
+print("Max of nums:", max(nums))
+print("Avg of nums: ",sum(nums)/len(nums))
